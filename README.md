@@ -19,19 +19,24 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 ```
-#Program Developed By: M.Krithika Lakshmi
-#Register Number: 212224230134
+# Developed by: M.Krithika Lakshmi
+# Regsiter No:212224230134
 
-x=input()
-y=input()
-z=x
-x=y
-y=z
-print("Swapped values are:",x,y)
+def swap(a,b):
+    t=a 
+    a=b
+    b=t
+    return a,b
+a=input()
+b=input()
+a,b=swap(a,b)
+print('Swapped values are: {} {}'.format(a,b))
+
 ```
 ## OUTPUT:
 
-![Screenshot 2025-05-07 134134](https://github.com/user-attachments/assets/8a6f0d0d-5bef-4cfa-8cf6-0ad68aee8ed2)
+![Screenshot 2025-05-07 143435](https://github.com/user-attachments/assets/d7ff7180-81f2-4c33-81bb-7237fa40a2f5)
+
 
 
 ## RESULT:
